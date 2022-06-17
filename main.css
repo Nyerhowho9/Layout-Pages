@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+header{
+    background-color: pink;
+    height: 10vh;
+}
+main {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    
+    border-radius: 10px;
+    margin: 50px;
+}
+main > div{
+    text-align: center;
+    width: 33.33%;
+}
+.div1{
+    background-color: hsl(31, 77%, 52%);
+     
+    height: 100%;  
+    
+}
+main > div >h2{
+    padding: 20px;
+    color:  hsl(0, 0%, 95%);
+}
+.div2{
+    background-color: hsl(184, 100%, 22%);
+     
+    height: 100%;  
+     
+}
+.div3{
+    background-color: hsl(179, 100%, 13%);
+      
+    height: 100%; 
+    
+}
