@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 10vh;
+    background-color: cadetblue;
+}
+nav{
+    text-align: center;
+    padding-top: 10px;
+}
+a{
+    color: yellow;
+    font-size: 25px;
+
+}
+main{
+    height: 90vh;
+    background-color: rgb(3, 3, 47);
+}
+.div1{grid-area: orange ;}
+.div2{grid-area: yellow;}
+.div3{grid-area: green;}
+.div4{grid-area: blue1;}
+.div5{grid-area: blue2;}
+
+.div1{
+    background-color: orangered;
+}
+.div2{
+    background-color: yellow;
+}
+.div3{
+    background-color: green;
+}
+.div4{
+    background-color: cadetblue;
+}
+.div5{
+    background-color: cadetblue;
+}
+.grid-container{
+    margin: auto;
+    display: grid;
+    grid-template-areas: 
+        'orange orange orange orange yellow yellow'
+        'orange orange orange orange yellow yellow'
+        'green green green blue1 blue1 blue1'
+        'green green green blue2 blue2 blue2'
+            
+    ;
+    gap: 5px;
+    height: 400px;
+    width: 70%;
+    padding-top: 100px;
+}
