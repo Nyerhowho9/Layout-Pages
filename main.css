@@ -1,34 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Poppins&display=swap');
 *{
     margin: 0px;
     padding: 0;
 }
 body{
     background-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+
 }
 header{
-    background-color: pink;
+    background-color: hsl(31, 77%, 52%);
+    text-align: center;
     height: 10vh;
 }
-main {
+nav{
+    padding-top: 15px;
+}
+a{
+    
+    color: hsl(0, 0%, 95%);
+}
+main{
+    
     width: 70%;
+    margin: auto;
+    height: 80vh;
+}
+main > div {
+    width: 100%;
     display: flex;
     margin: auto;
     justify-content: center;
     align-items: center;
-    height: 70vh;
+    height: 80vh;
     
     border-radius: 10px;
     margin: 50px;
+    color: hsl(0, 0%, 95%);
 }
-main > div{
-    text-align: center;
+main > div >div{
+    text-align: left;
     width: 33.33%;
 }
 .div1{
     background-color: hsl(31, 77%, 52%);
-     
+    border-radius: 10px 0 0 10px;
     height: 100%;  
-    
+      
+}
+.div1 > div> button{
+    color: hsl(31, 77%, 52%);
 }
 main > div >h2{
     padding: 20px;
@@ -40,9 +62,44 @@ main > div >h2{
     height: 100%;  
      
 }
+.div2 >div> button{
+    color: hsl(184, 100%, 22%);
+}
 .div3{
     background-color: hsl(179, 100%, 13%);
-      
+    border-radius: 0 10px 10px 0;
     height: 100%; 
     
+}
+.div3 > div>button{
+    color: hsl(179, 100%, 13%);
+}
+.div1 >div, .div2 >div, .div3 >div{
+    width: 85%;
+}
+button{
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    background-color: hsl(0, 0%, 95%);
+    margin-left: 60px;
+    margin-top: 50px;
+}
+img{
+    padding-top: 50px; 
+    padding-left: 60px;
+}
+h2{
+    margin-left:60px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 35px;
+    padding-top: 40px;
+}
+p{
+    padding-top: 30px;
+    padding-left: 60px;
+    font-weight: 400;
+    line-height: 1.6;
+    word-spacing: normal;
 }
